@@ -1,0 +1,47 @@
+*{
+	box-sizing:border-box;
+}
+
+body{
+	margin: 0;
+	background-color: lightcoral;
+}
+
+.todo{
+	margin: 50px auto;
+	width: 700px;
+	border: 1px solid Black;
+	background-color: whitesmoke;
+
+}
+.text-field_wrapper	{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 10px;
+}
+.text-field_wrapper input{
+	height: 30px;
+	flex-grow: 3;
+}
+
+.text-field_wrapper button{
+	height: 30px;
+	flex-grow: 1;
+}
+.container{
+	width: 100%;
+}
+
+.todo-item{
+	width: 97%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 10px;
+	border: 1px solid black;
+	margin: 10px;
+	padding: 5px;
+	background-color: burlywood;
+
+}
